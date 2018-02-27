@@ -1,2 +1,2 @@
-# karasukimu
+# masuc
 Vimのカラースキーム

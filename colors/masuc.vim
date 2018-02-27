@@ -1,8 +1,8 @@
-let g:colors_name = expand('<sfile>:t:r')
+let g:colors_name = 'masuc'
 set background=dark
 highlight clear
 
-if exists("syntax_on")
+if exists('syntax_on')
   syntax reset
 endif
 
