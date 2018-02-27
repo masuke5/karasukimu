@@ -1,10 +1,11 @@
-let g:colors_name = 'masuc'
-set background=dark
 highlight clear
-
 if exists('syntax_on')
   syntax reset
 endif
+
+" highlight clear の前に置くと何故か名前が認識されない
+let g:colors_name = 'masuc'
+set background=dark
 
 highlight Normal guifg=white guibg=#212121
 highlight Comment guifg=#939393
