@@ -2,7 +2,6 @@ highlight clear
 if exists('syntax_on')
   syntax reset
 endif
-
 " highlight clear の前に置くと何故か名前が認識されない
 let g:colors_name = 'masuc'
 set background=dark
@@ -20,6 +19,9 @@ highlight PreProc guifg=#a1d1c4 gui=bold ctermfg=magenta
 highlight Underlined guifg=#d3d872 gui=underline
 highlight Error guifg=white guibg=#ff2828
 highlight Todo guifg=#160859 guibg=#96ef21
+
+highlight IncSearch guifg=#636363 guibg=#ffffff
+highlight Search guibg=#d8d488 guifg=#010101
 
 highlight LineNr guifg=#b3c417
 highlight CursorLine guibg=#4c4c4c ctermbg=blue
