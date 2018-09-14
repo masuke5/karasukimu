@@ -28,6 +28,11 @@ highlight CursorLine guibg=#4c4c4c ctermbg=blue
 highlight VertSplit guibg=#727272
 highlight SignColumn guibg=#212121
 
+highlight StatusLine guibg=white guifg=#444444
+highlight StatusLineNC guibg=white guifg=#333333
+
+highlight ModeMsg guifg=#85e266
+
 " ALE
 highlight ALEErrorSign guibg=#e02828
 highlight ALEWarningSign guibg=#efef21 guifg=black
